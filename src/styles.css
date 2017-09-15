@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    background-color: #E1E1E1;
+}
+ul li{
+    background: white;
+}
+.rectangle{
+    border: 1px solid white;
+    padding-bottom: 15px;
+    background: white;
+    margin-bottom: 15px;
+}
+/* user list */
+.custom-table{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -15px;
+}
+th, td{
+    text-align: center;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+/* add user */
+.group{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.space{
+    margin-bottom: 10px;
+}
+.center{
+    padding-top: 7px;
+}
